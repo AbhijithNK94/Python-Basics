@@ -650,6 +650,7 @@ L = [i for i in L if i>=0]
 print(L)
 L = [25, 30, 54, 85, 90]
 L = [i/2 for i in L]
+print(L)
 
 
 
