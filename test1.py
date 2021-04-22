@@ -649,7 +649,7 @@ L = [10,-20,9,45,-33]
 L = [i for i in L if i>=0]
 print(L)
 L = [25, 30, 54, 85, 90]
-L = [i for i/2 in L]
+L = [i/2 for i in L]
 
 
 
