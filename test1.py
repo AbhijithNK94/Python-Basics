@@ -648,7 +648,8 @@ print(sqrs)
 L = [10,-20,9,45,-33]
 L = [i for i in L if i>=0]
 print(L)
-print("heLLo")
+L = [25, 30, 54, 85, 90]
+L = [i for i/2 in L]
 
 
 
