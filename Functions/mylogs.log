@@ -1,0 +1,11 @@
+INFO 2021-05-26 11:23:03,908 - Withdraw fn - start
+DEBUG 2021-05-26 11:23:03,908 - Withdrawal amount :2000
+ERROR 2021-05-26 11:23:03,908 - Insufficient fund
+Traceback (most recent call last):
+  File "C:\Users\abhij\PycharmProjects\Python basics\Functions\Log_fn.py", line 116, in call
+    amountRecieved = withdraw(a, m)
+  File "C:\Users\abhij\PycharmProjects\Python basics\Functions\Log_fn.py", line 112, in withdraw
+    raise NotEnoughFundError()
+NotEnoughFundError
+INFO 2021-05-26 11:23:03,908 - Withdraw fn - start
+INFO 2021-05-26 11:23:03,909 - amount withdrawn
